@@ -6,4 +6,9 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    max=list_num[0]
+    for i in list_num:
+        if max<i:
+            max=i
+
+    return max

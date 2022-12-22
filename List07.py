@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    for i in range(len(list1)):
+        if list1[i]==1:
+    
+            list1[i]=False
+    return list1
