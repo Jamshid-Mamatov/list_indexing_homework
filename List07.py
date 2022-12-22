@@ -7,7 +7,7 @@ def main(list1):
         list: return answer
     """
     for i in range(len(list1)):
-        if list1[i]==1:
+        if list1[i]==0:
     
             list1[i]=False
     return list1
